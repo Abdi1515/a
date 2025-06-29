@@ -1175,9 +1175,23 @@ game.Players.PlayerAdded:Connect(function(player)
 	player.Chatted:Connect(function(msg)
 		if msg == "hello" or "hi" or "Hello" or "Hi" or "sup" or "Sup" or "wsg" or "hey" or "Hey" then --you can add or and put another message to say like or "sup"
 			wait(1) --change it to how much time you want the npc to respond in
-			game:GetService("Chat"):Chat(script.Parent.Head, "Hello, "..player.Name.."", Enum.ChatColor.Blue) --change "hi" to what you want the npc to respond with. also its gonna say hi and the player who chatted's name when you put ..player.Name... 
-            wait(1)
-            game:GetService("Chat"):Chat(script.Parent.Head, "I must reach an higher Dimension!", Enum.ChatColor.Blue) --change "hi" to what you want the npc to respond with. also its gonna say hi and the player who chatted's name when you put ..player.Name... 
+			local StringTable = {
+	"Cw767Z6PHj",
+    "RX5wvG3ahN",
+    "wT6gkFN38H",
+    "1T1bhVvrNj",
+    "B473DxpmnW",
+    "GwenedHu5P",
+    "9dxmCHMND0",
+    "YeRUbLxMvd",
+    "pRZQM0x79H",
+    "GMLSHZjYVX",
+    "I must reach an higher dimension!"
+}
+
+prompt.Triggered:Connect(function()
+	Random_Dialog = StringTable[math.random(1,#StringTable)]
+end)
 		end
 	end)
 end)
