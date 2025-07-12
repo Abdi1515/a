@@ -1,23 +1,24 @@
-local Methods = loadstring(game:HttpGet("https://raw.githubusercontent.com/coolsk8rboy/The-John-Cena-Factory/main/JohnCenasMain.lua"))()
-Methods:SetWalkSpeed(5)
-Methods:SetIdleAnimation(138929255578855, .1, 6)
-Methods:SetWalkAnimation(105794369310068, .1, 6)
-Methods:NewAttack("Placeholder", "e", 14637910371, .1, 9)
-Methods:NewAttack("Placeholder", "f", 14637998268, .1, 6)
-Methods:NewAttack("Placeholder", "N", 14638003545, .1, 6)
-Methods:NewAttack("Placeholder", "R", 14645273120, .1, 6)
-Methods:NewAttack("Placeholder", "Q", 14645298787, .1, 6)
-Methods:NewAttack("Placeholder", "T", 14645314001, .1, 6)
-Methods:SystemMessage([[
-Controls:
-E - Placeholder
-F - Placeholder
-N - Placeholder
-R - Placeholder
-Q - Placeholder
-T - Placeholder
---- Placeholder
-]])
-Methods:SetScriptCreator("Innovation on scriptblox")
-Methods:BodyPartFlingOnTouch("Left Arm")
-Methods:RunScript()
+for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if v.ClassName == "Accessory" then v.Parent = workspace
+end
+end
+game.Players.LocalPlayer.Character:BreakJoints()
+wait(7)
+    game.Players.LocalPlayer.MaximumSimulationRadius = math.pow(math.huge,math.huge)*math.huge
+    game.Players.LocalPlayer.SimulationRadius = math.pow(math.huge,math.huge)*math.huge
+    game:GetService("RunService").Stepped:wait()
+    v = game.Workspace["International Fedora"].Handle
+ local temp = Instance.new("BodyPosition")
+temp.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+temp.Parent = v
+  game.Players.LocalPlayer.MaximumSimulationRadius = math.pow(math.huge,math.huge)*math.huge
+    game.Players.LocalPlayer.SimulationRadius = math.pow(math.huge,math.huge)*math.huge
+    game:GetService("RunService").Stepped:wait()
+local temp1 = Instance.new("BodyThrust")
+temp1.Location = Vector3.new(5,0,0)
+temp1.Force = Vector3.new(4000,4000,4000)
+temp1.Parent = v
+v.CanCollide = false
+while wait() do
+temp.Position = game.Players.LocalPlayer:GetMouse().Hit.p + Vector3.new(0,1,0)
+end
