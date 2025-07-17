@@ -1,0 +1,95 @@
+if not isfolder("Dances") then 
+    makefolder("Dances")
+    end
+local lol = math.random(1,30)
+if lol == 2 then 
+lol = true 
+end
+local sprinting = false 
+local is = game:GetService("InsertService")
+local idleanim = is:LoadLocalAsset("rbxassetid://78251966457556")
+local walkanim = is:LoadLocalAsset("rbxassetid://963051310653761")
+local sprintanim = is:LoadLocalAsset("rbxassetid://963051310653761")
+local randompart = Instance.new("Part",game:GetService("RunService"))
+local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleAttachment
+coolparticles.Parent = randompart
+local playbacktrack = true 
+local script = Instance.new("LocalScript")
+getgenv().real = true
+local OxideApi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nitro-GT/Utils/refs/heads/main/OxideApi"))()
+local timeposcur = 0 
+OxideApi.Notification("twitch animations by geometry",10)
+local playanother = false
+local playing = false
+local dancing = false
+local rtrnv;
+local c;
+local tbl3;
+local v;
+local anim;
+local count;
+local hhhh;
+local asdf;
+local s;
+local animid;
+local plr;
+local char=game:GetService("Players").LocalPlayer.Character
+local hum=char:FindFirstChildOfClass("Humanoid")
+local h=char.Head
+local t=char.Torso
+local hrp=char.HumanoidRootPart 
+local cframe;
+local torso;
+local rs;
+local ls;
+local rh;
+local lh;
+local n;
+local rj;
+local rsc0;
+local lsc0;
+local rhc0;
+local lhc0;
+local rjc0;
+local nc02;
+local gc0;
+local orsc0;
+local olsc0;
+local orhc0;
+local olhc0;
+local orjc0;
+local onc0;
+local count2;
+local maxcount2;
+local walking = false
+local idle = false
+local RunService = game:GetService("RunService")
+local function getnext(tbl,number)
+	c=100
+	rtrnv=0
+	for i,v in pairs(tbl) do
+		if i>number and i-number<c then
+c=i-number
+rtrnv=i
+		end
+	end
+	return(rtrnv)
+end
+local function wait2(tim)
+	if tim<0.1 then
+		game:GetService("RunService").Heartbeat:Wait()
+	else
+		for i=1,tim*40 do
+game:GetService("RunService").Heartbeat:Wait()
+		end
+	end
+end
+local function kftotbl(kf) -- Below this is literal pain..
+	tbl3 = {}
+	for i,v in pairs(kf:GetDescendants()) do
+		if v:IsA("Pose") then
+tbl3[string.sub(v.Name,1,1)..string.sub(v.Name,#v.Name,#v.Name)] = v.CFrame
+		end
+	end
+	return(tbl3)
+end
