@@ -33,8 +33,10 @@ local function SendChatMessage(message)
     end
 end
 
-local customMessage = "-gh 5268602207 5593848751 5505301521 80479688830908 80401121980206 74603792617282 111809732325428 94138150908378"
+local customMessage = "-gh 5268602207 5593848751 5505301521 80479688830908 80401121980206 74603792617282 111809732325428 94138150908378 4819740796"
 local netMessage = "-net"
+
+game.Players.LocalPlayer.Character["LUAHead"].Handle.Mesh:Destroy()
 
 SendChatMessage(customMessage)
 SendChatMessage(netMessage)
