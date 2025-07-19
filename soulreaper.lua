@@ -35,9 +35,11 @@ end
 
 local customMessage = "-gh 63690008 62234425 48474313 62724852 451220849 48474294 12103270510 12103236257 9350274205 15166105445 16775414552"
 local netMessage = "-net"
+local shMessage = "-sh"
 
 SendChatMessage(customMessage)
 SendChatMessage(netMessage)
+SendChatMessage(shMessage)
 
 task.wait(0.2)
 
