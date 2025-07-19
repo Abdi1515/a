@@ -115,6 +115,12 @@ local Button = Tab:CreateButton({
    Name = "AnnaBypasser",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
+   Rayfield:Notify({
+   Title = "set ur language to  Қазақ Тілі*",
+   Content = "",
+   Duration = 5,
+   Image = 4483362458,
+})
    end,
 })
 local Button = Tab:CreateButton({
