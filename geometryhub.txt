@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Geometry Hub",
-   Icon = box, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Geometry Hub",
    LoadingSubtitle = "by Geometry",
    ShowText = "Geometry Hub", -- for mobile users to unhide rayfield, change if you'd like
@@ -42,7 +42,7 @@ Rayfield:Notify({
    Duration = 5,
    Image = power,
 })
-local Tab = Window:CreateTab("Scripts", script) -- Title, Image
+local Tab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "SEDJM CurrentAngle",
    Callback = function()
@@ -109,7 +109,7 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/IL2"))()
    end,
 })
-local Tab = Window:CreateTab("Reanimations", person-standing) -- Title, Image
+local Tab = Window:CreateTab("Reanimations", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "CurrentAngle V2",
    Callback = function()
@@ -122,14 +122,14 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa43243/john-doe/refs/heads/main/Just_A_Baseplate_Working_Reanimation.txt"))()
    end,
 })
-local Tab = Window:CreateTab("FE Bypassers", database) -- Title, Image
+local Tab = Window:CreateTab("FE Bypassers", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "AnnaBypasser",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
    Rayfield:Notify({
    Title = "set ur language to  Қазақ Тілі*",
-   Content = "",
+   Content = "yer",
    Duration = 5,
    Image = 4483362458,
 })
@@ -141,7 +141,7 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gazer-Ha/Gaze-stuff/refs/heads/main/Not%20Better%20Bypass"))()
    end,
 })
-local Tab = Window:CreateTab("Forsaken Hat Scripts", hard-hat) -- Title, Image
+local Tab = Window:CreateTab("Forsaken Hat Scripts", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Rochas313 <Only For JAB>",
    Callback = function()
