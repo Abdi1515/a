@@ -129,3 +129,10 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gazer-Ha/Gaze-stuff/refs/heads/main/Not%20Better%20Bypass"))()
    end,
 })
+local Tab = Window:CreateTab("Forsaken Hat Scripts", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "Rochas313 <Only For JAB>",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/Rochas313.lua"))()
+   end,
+})
