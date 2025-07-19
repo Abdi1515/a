@@ -1,0 +1,112 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Geometry Hub",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Geometry Hub",
+   LoadingSubtitle = "by Geometry",
+   ShowText = "Geometry Hub", -- for mobile users to unhide rayfield, change if you'd like
+   Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = GeoHub, -- Create a custom folder for your hub/game
+      FileName = "GeoHub"
+   },
+
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Key Needed",
+      Subtitle = "Key System",
+      Note = "Test", -- Use this to tell the user how to get a key
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"Name"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+Rayfield:Notify({
+   Title = "Ran",
+   Content = "CREDITS TO THE SCRIPTS OWNERS IN THIS HUB.",
+   Duration = 5,
+   Image = 4483362458,
+})
+local Tab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "SEDJM CurrentAngle",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/sedjm2.txt"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "EKDV1",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Script/refs/heads/main/.github/workflows/JustABaseplate.txt"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Giant EKDV1 <Only For JAB>",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/U28NEr9s/raw"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "AquaMatrix",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Catimate-Hub-32236"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Ultra UTG",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/ULTRA_UTG.txt"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Achromatic <Only For JAB kinda borken>",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/achromatic.lua"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "TIAPT2 Trolling GUI",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/Trolling%20Is%20A%20Pinning%20Tower%202%20Script"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "KillBot V2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/gObl00x/Pendulum-Fixed-AND-Others-Scripts/refs/heads/main/Killbot%20V2"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "xDLOL",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/xdlol.txt"))()
+   end,
+})
+local Tab = Window:CreateTab("Reanimations", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "CurrentAngle V2",
+   Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-CurrentAngle-V2-Full-axis-reanimate-43351"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "JAB Reanimate",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa43243/john-doe/refs/heads/main/Just_A_Baseplate_Working_Reanimation.txt"))()
+   end,
+})
