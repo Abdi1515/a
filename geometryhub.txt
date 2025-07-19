@@ -103,6 +103,12 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://rawscripts.net/raw/Just-a-baseplate.-Krystal-Tool-Dance-V3-By-Theo-45046"))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Immortarlity Lord <Only For JAB>",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/IL2"))()
+   end,
+})
 local Tab = Window:CreateTab("Reanimations", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "CurrentAngle V2",
