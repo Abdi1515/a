@@ -110,3 +110,16 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa43243/john-doe/refs/heads/main/Just_A_Baseplate_Working_Reanimation.txt"))()
    end,
 })
+local Tab = Window:CreateTab("FE Bypassers", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "AnnaBypasser",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Not Better Bypass",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Gazer-Ha/Gaze-stuff/refs/heads/main/Not%20Better%20Bypass"))()
+   end,
+})
