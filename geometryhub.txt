@@ -92,7 +92,7 @@ local Button = Tab:CreateButton({
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "xDLOL",
+   Name = "xDLOL <Only For JAB>",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/xdlol.txt"))()
    end,
