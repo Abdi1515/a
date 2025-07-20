@@ -62,12 +62,6 @@ local Button = Tab:CreateButton({
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "Achromatic <Only For JAB kinda borken>",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/achromatic.lua"))()
-   end,
-})
-local Button = Tab:CreateButton({
    Name = "TIAPT2 Trolling GUI",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/Trolling%20Is%20A%20Pinning%20Tower%202%20Script"))()
@@ -131,32 +125,38 @@ local Button = Tab:CreateButton({
 })
 local Tab = Window:CreateTab("Only For JAB", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
-   Name = "Immortarlity Lord <Only For JAB>",
+   Name = "Immortarlity Lord",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/IL2"))()
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "Soul Reaper <Only For JAB>",
+   Name = "Achromatic",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/achromatic.lua"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Soul Reaper",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/soulreaper.lua"))()
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "Dubstep Cannon <Only For JAB>",
+   Name = "Dubstep Cannon",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/DubstepCannon.lua"))()
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "Melon FE True SS Convert <Only For JAB>",
+   Name = "Melon FE True SS Convert",
    Callback = function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/C00LMelon/True-SS-Hub/main/Protected.lua%20(4).txt'),true))()
    loadstring("\105\102\32\110\111\116\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101\34\41\58\70\105\110\100\70\105\114\115\116\67\104\105\108\100\40\34\48\49\95\115\101\114\118\101\114\34\41\32\116\104\101\110\32\114\101\116\117\114\110\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\84\101\108\101\112\111\114\116\83\101\114\118\105\99\101\34\41\58\84\101\108\101\112\111\114\116\40\49\55\53\55\52\54\49\56\57\53\57\44\32\103\97\109\101\58\71\101\116\83\101\114\118\105\99\101\40\34\80\108\97\121\101\114\115\34\41\46\76\111\99\97\108\80\108\97\121\101\114\41\32\101\110\100\10")()
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "Giant EKDV1 <Only For JAB>",
+   Name = "Giant EKDV1",
    Callback = function()
    loadstring(game:HttpGet("https://pastefy.app/U28NEr9s/raw"))()
    end,
