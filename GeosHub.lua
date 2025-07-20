@@ -91,6 +91,12 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/epikdancezzfixed"))()
    end,
 })
+local Button = Tab:CreateButton({
+   Name = "Caducus",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/ZWgckZdU/raw"))()
+   end,
+})
 local Tab = Window:CreateTab("Hubs", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "GhostHub",
