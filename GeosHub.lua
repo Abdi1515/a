@@ -161,6 +161,61 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://pastefy.app/U28NEr9s/raw"))()
    end,
 })
+local Tab = Window:CreateTab("Themes", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "Default",
+   Callback = function()
+   Window.ModifyTheme('Default')
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Amber Glow",
+   Callback = function()
+   Window.ModifyTheme('AmberGlow')
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Amethyst",
+   Callback = function()
+   Window.ModifyTheme('Amethyst')
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Bloom",
+   Callback = function()
+   Window.ModifyTheme('Bloom')
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Dark Blue",
+   Callback = function()
+   Window.ModifyTheme('DarkBlue')
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Green",
+   Callback = function()
+   Window.ModifyTheme('Green')
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Light",
+   Callback = function()
+   Window.ModifyTheme('Light')
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Ocean",
+   Callback = function()
+   Window.ModifyTheme('Ocean')
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "Serenity",
+   Callback = function()
+   Window.ModifyTheme('Serenity')
+   end,
+})
 local Tab = Window:CreateTab("Reanimates", 4483362458) -- Title, Image
 local Button = Tab:CreateButton({
    Name = "CurrentAngle V2",
