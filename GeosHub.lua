@@ -80,12 +80,6 @@ local Button = Tab:CreateButton({
    end,
 })
 local Button = Tab:CreateButton({
-   Name = "xDLOL",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/xdlol.txt"))()
-   end,
-})
-local Button = Tab:CreateButton({
    Name = "Krystal Dance Tool Version",
    Callback = function()
    loadstring(game:HttpGet("https://rawscripts.net/raw/Just-a-baseplate.-Krystal-Tool-Dance-V3-By-Theo-45046"))()
@@ -128,6 +122,12 @@ local Button = Tab:CreateButton({
    Name = "Immortarlity Lord",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/IL2"))()
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "xDLOL",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/xdlol.txt"))()
    end,
 })
 local Button = Tab:CreateButton({
