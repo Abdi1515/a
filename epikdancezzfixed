@@ -1,0 +1,39 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+   Title = "Limb Reanim V2";
+   Text = "ENJOY!";
+   Icon = "rbxthumb://type=Asset&id=13775452736&w=150&h=150"
+})
+Duration = 15;
+
+local settings = _G
+settings["Use default animations"] = true
+settings["Fake character transparency level"] = 1
+settings["Disable character scripts"] = true
+settings["Fake character should collide"] = true
+settings["Parent real character to fake character"] = false
+settings["Respawn character"] = true
+settings["Instant respawn"] = false
+settings["Hide HumanoidRootPart"] = false
+settings["PermaDeath fake character"] = false
+settings["Names to exclude from transparency"] = {
+    -- example:
+    -- ["HumanoidRootPart"] = true,
+    -- ["Left Arm"] = true
+}
+
+(function()
+    if getgenv then
+        return getgenv()
+    else
+        return _G
+    end
+end)().fling = nil
+
+local finished = false
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/somethingsimade/CurrentAngleV2/refs/heads/main/v2"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gObl00x/My-Scripts/refs/heads/main/Epik%20R6%20Dancezz"))()
+end)
+
+repeat task.wait() until finished 
