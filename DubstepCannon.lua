@@ -33,7 +33,7 @@ local function SendChatMessage(message)
     end
 end
 
-local customMessage = "-gh 14255528083 14768701869 14255554762 14768693948 14255556501 17550887328"
+local customMessage = "-gh 14255528083 14768701869 14255554762 14768693948 14255556501 17550887328 1073690"
 local netMessage = "-net"
 
 SendChatMessage(customMessage)
