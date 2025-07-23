@@ -94,7 +94,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Caducus",
    Callback = function()
-   loadstring(game:HttpGet("https://pastefy.app/ZWgckZdU/raw"))()
+   loadstring(game:HttpGet("https://pastefy.app/awJrO3Q5/raw"))()
    end,
 })
 local Tab = Window:CreateTab("Hubs", 4483362458) -- Title, Image
