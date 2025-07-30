@@ -97,7 +97,7 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://pastefy.app/awJrO3Q5/raw"))()
    end,
 })
-local Tab = Window:CreateTab("Hubs", "chevrons-left-right-ellipsis") -- Title, Image
+local Tab = Window:CreateTab("Hubs", "brain") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "GhostHub",
    Callback = function()
