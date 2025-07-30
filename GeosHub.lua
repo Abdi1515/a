@@ -123,7 +123,7 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/anan.lua"))()
    end,
 })
-local Tab = Window:CreateTab("Only For JAB", "pen-off") -- Title, Image
+local Tab = Window:CreateTab("Only For JAB", "x") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Immortarlity Lord",
    Callback = function()
