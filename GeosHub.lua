@@ -46,7 +46,7 @@ local Tab = Window:CreateTab("Scripts", "scroll") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "SEDJM CurrentAngle",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/sedjm2.txt"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/Sedjm.lua"))()
    end,
 })
 local Button = Tab:CreateButton({
