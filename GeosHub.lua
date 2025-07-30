@@ -167,7 +167,7 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://pastefy.app/U28NEr9s/raw"))()
    end,
 })
-local Tab = Window:CreateTab("Themes", "pallete") -- Title, Image
+local Tab = Window:CreateTab("Themes", "paint-bucket") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Default",
    Callback = function()
