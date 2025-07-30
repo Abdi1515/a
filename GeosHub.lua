@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Geometry Hub",
-   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   Icon = "box", -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Geometry Hub",
    LoadingSubtitle = "by Geometry",
    ShowText = "Geometry Hub", -- for mobile users to unhide rayfield, change if you'd like
@@ -42,7 +42,7 @@ Rayfield:Notify({
    Duration = 5,
    Image = power,
 })
-local Tab = Window:CreateTab("Scripts", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Scripts", "scroll") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "SEDJM CurrentAngle",
    Callback = function()
@@ -97,14 +97,14 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://pastefy.app/awJrO3Q5/raw"))()
    end,
 })
-local Tab = Window:CreateTab("Hubs", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Hubs", "chevrons-left-right-ellipsis") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "GhostHub",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
    end,
 })
-local Tab = Window:CreateTab("Fun", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Fun", "ferris-wheel") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Zero Gravity",
    Callback = function()
@@ -123,7 +123,7 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/anan.lua"))()
    end,
 })
-local Tab = Window:CreateTab("Only For JAB", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Only For JAB", "pen-off") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Immortarlity Lord",
    Callback = function()
@@ -167,7 +167,7 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://pastefy.app/U28NEr9s/raw"))()
    end,
 })
-local Tab = Window:CreateTab("Themes", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Themes", "pallete") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Default",
    Callback = function()
@@ -222,7 +222,7 @@ local Button = Tab:CreateButton({
    Window.ModifyTheme('Serenity')
    end,
 })
-local Tab = Window:CreateTab("Reanimates", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Reanimates", "person-standing") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "CurrentAngle V2",
    Callback = function()
@@ -235,7 +235,7 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/nicolasbarbosa43243/john-doe/refs/heads/main/Just_A_Baseplate_Working_Reanimation.txt"))()
    end,
 })
-local Tab = Window:CreateTab("FE Bypassers", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("FE Bypassers", "key-round") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "AnnaBypasser",
    Callback = function()
@@ -254,7 +254,7 @@ local Button = Tab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gazer-Ha/Gaze-stuff/refs/heads/main/Not%20Better%20Bypass"))()
    end,
 })
-local Tab = Window:CreateTab("Forsaken Reanimation Scripts", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Forsaken Reanimation Scripts", "disc") -- Title, Image
 local Button = Tab:CreateButton({
    Name = "Guest",
    Callback = function()
