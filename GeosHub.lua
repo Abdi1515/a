@@ -6,7 +6,7 @@ local Window = Rayfield:CreateWindow({
    LoadingTitle = "Geometry Hub",
    LoadingSubtitle = "by Geometry",
    ShowText = "Geometry Hub", -- for mobile users to unhide rayfield, change if you'd like
-   Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    ToggleUIKeybind = "K", -- The keybind to toggle the UI visibility (string like "K" or Enum.KeyCode)
 
@@ -58,7 +58,14 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Ultra UTG",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Abdi1515/a/refs/heads/main/ULTRA_UTG.txt"))()
+   Tab:AddButton({
+    Title = "EKDV1",
+    Description = "",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Script/refs/heads/main/.github/workflows/JustABaseplate.txt"))()
+    end
+})
+
    end,
 })
 local Button = Tab:CreateButton({
