@@ -244,7 +244,7 @@ local Button = Tab:Button({
     end
 })
 local Tab = Window:Tab({
-    Title = "FE Bypassers",
+    Title = "Chat Bypassers",
     Icon = "key-round",
     Locked = false,
 })
