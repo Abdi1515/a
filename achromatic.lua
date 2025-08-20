@@ -37,6 +37,7 @@ local customMessage = "-gh 14255528083 17374846953 17374851733 17401151565 17387
 local netMessage = "-net"
 
 SendChatMessage(customMessage)
+task.wait(1)
 SendChatMessage(netMessage)
 
 task.wait(1)
