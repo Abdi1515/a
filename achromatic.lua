@@ -39,6 +39,6 @@ local netMessage = "-net"
 SendChatMessage(customMessage)
 SendChatMessage(netMessage)
 
-task.wait(0.2)
+task.wait(1)
 
 loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/1e606bc885a3c12fd50bc8f29ae6ac49/raw/6f2e187cc59818d2a308bdd055ae2a93bf2fcb64/Achromatic.lua"))()
