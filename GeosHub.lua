@@ -7,7 +7,6 @@ local Window = WindUI:CreateWindow({
     Folder = "GeosHub2",
     
     -- ↓ This all is Optional. You can remove it.
-    Size = UDim2.fromOffset(580, 460),
     Transparent = true,
     Theme = "Dark",
     Resizable = true,
